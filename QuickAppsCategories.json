@@ -1,0 +1,11 @@
+{
+    "QAListTitle": "ChildernDefault_Categories_SpecificForced",
+    "Apps": ["Auto_Stopwatch", "Auto_NotePad", "Auto_Chess", "Auto_Translator"],
+    "ForcedAppsListingType": "Specific",
+    "DefaultAppsListingType": "Childern",
+    "DefaultApps": ["Auto_Chess", "Auto_Translator"],
+    "ForcedApps": ["Auto_Stopwatch", "Auto_NotePad"],
+    "CategoriesApps": [{"Automation Category1": "Auto_Calculator"}, {"Automation Category3": "Auto_Google"}],
+    "FavoriteEndPointKey": "favorite4",
+    "SetAsDefaultFavourite": true
+}

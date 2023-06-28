@@ -1,0 +1,35 @@
+[
+    {
+        "QAListTitle": "ChildernDefault_SpecificForced",
+        "Apps": ["Auto_Calculator", "Auto_Google", "Auto_Music Hub"],
+        "ForcedAppsListingType": "Specific",
+        "DefaultAppsListingType": "Childern",
+        "DefaultApps": ["Auto_Calculator", "Auto_Music Hub"],
+        "ForcedApps": ["Auto_Google"],
+        "FavoriteEndPointKey": "favorite2",
+        "SetAsDefaultFavourite": true
+    },
+    {
+        "QAListTitle": "SpecificDefault_QueryForced",
+        "Apps": ["Auto_Calendar", "Auto_Clock", "Auto_Adobe"],
+        "ForcedAppsListingType": "Query",
+        "DefaultAppsListingType": "Specific",
+        "QueryScopeList": "ChildernDefault_SpecificForced",
+        "DefaultApps": ["Auto_Calendar"],
+        "ForcedApps": ["Auto_Google"],
+        "FavoriteEndPointKey": "favorite3",
+        "SetAsDefaultFavourite": true
+    },
+    {
+        "QAListTitle": "ChildernDefault_SearchScopeForced",
+        "Apps": ["Auto_Cisco", "Auto_Azure", "Auto_SearchApp"],
+        "ForcedAppsListingType": "SearchScope",
+        "DefaultAppsListingType": "Childern",
+        "SearchScopeList": "ChildernDefault_SpecificForced",
+        "DefaultApps": ["Auto_Cisco", "Auto_Azure", "Auto_SearchApp"],
+        "ForcedApps": ["Auto_Calculator", "Auto_Google", "Auto_Music Hub"],
+        "FavoriteEndPointKey": "favorite1",
+        "SetAsDefaultFavourite": false
+    }
+]
+   
